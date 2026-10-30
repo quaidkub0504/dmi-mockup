@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Danboise Mechanical | Commercial HVAC, Plumbing &amp; Electrical in Michigan</title>
+<meta name="description" content="Commercial and industrial HVAC, plumbing and electrical contractor serving Michigan since 1925. 24/7 live dispatch, never a voicemail. 248-471-2230.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0d1117;--ink-2:#151b23;--ink-3:#1e2631;--line:#2a3441;
+  --steel:#8b97a6;--fog:#c9d1db;--paper:#f3f1ec;--paper-2:#e8e5de;--text:#1b2028;--muted:#5b6573;
+  --hi:#f5c400;--hi-ink:#1a1500;--red:#c8382c;
+  --display:"Archivo",system-ui,sans-serif;--body:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace;
+  --wrap:min(1240px,100% - 32px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--paper);color:var(--text);font:16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{width:var(--wrap);margin-inline:auto}
+h1,h2,h3{font-family:var(--display);font-stretch:78%;line-height:1;margin:0;letter-spacing:-.01em;text-transform:uppercase}
+h2{font-size:clamp(2.2rem,5vw,3.8rem);font-weight:800}
+h3{font-size:1.35rem;font-weight:700}
+.eyebrow{font:500 .78rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:10px;margin-bottom:18px}
+.eyebrow::before{content:"";width:22px;height:3px;background:var(--hi)}
+.dark .eyebrow{color:var(--steel)}
+.btn{display:inline-flex;align-items:center;gap:10px;font:700 .95rem/1 var(--display);font-stretch:90%;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:16px 22px;border:2px solid transparent;cursor:pointer;transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-hi{background:var(--hi);color:var(--hi-ink)}
+.btn-hi:hover{background:#ffd31f}
+.btn-line{border-color:currentColor;color:inherit;background:transparent}
+.btn svg{width:18px;height:18px}
+section{padding:clamp(72px,10vw,128px) 0}
+.dark{background:var(--ink);color:var(--fog)}
+.dark h2,.dark h3{color:#fff}
+
+/* top bar + nav */
+.alert{background:var(--hi);color:var(--hi-ink);font:600 .85rem/1.3 var(--body);text-align:center;padding:9px 16px}
+.alert a{font-weight:700}
+.alert .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--red);margin-right:8px;animation:pulse 1.6s infinite}
+@keyframes pulse{50%{opacity:.25}}
+header{position:sticky;top:0;z-index:50;background:rgba(13,17,23,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff}
+.brand img{height:40px;width:auto}
+.brand span{font:800 1.05rem/1 var(--display);font-stretch:80%;letter-spacing:.04em;text-transform:uppercase}
+.brand small{display:block;font:500 .66rem/1.4 var(--mono);letter-spacing:.14em;color:var(--steel)}
+.links{display:flex;gap:28px;list-style:none;margin:0;padding:0}
+.links a{color:var(--fog);text-decoration:none;font:600 .82rem/1 var(--display);font-stretch:90%;letter-spacing:.1em;text-transform:uppercase}
+.links a:hover{color:var(--hi)}
+.nav-cta{display:flex;align-items:center;gap:14px}
+.phone{color:#fff;text-decoration:none;font:700 1.05rem/1 var(--display);font-stretch:85%;letter-spacing:.04em;display:flex;align-items:center;gap:8px}
+.phone svg{width:18px;height:18px;color:var(--hi)}
+.nav .btn{padding:12px 16px;font-size:.82rem}
+.menu-btn{display:none;background:none;border:1px solid var(--line);color:#fff;width:44px;height:44px;cursor:pointer}
+@media(max-width:1020px){.links{display:none}.links.open{display:flex;flex-direction:column;position:absolute;top:72px;left:0;right:0;background:var(--ink);padding:20px 16px;gap:20px;border-bottom:1px solid var(--line)}.menu-btn{display:grid;place-items:center}}
+@media(max-width:620px){.nav .btn,.brand small{display:none}.phone{font-size:0;width:44px;height:44px;justify-content:center;border:1px solid var(--line)}.phone svg{width:20px;height:20px}.tab{min-width:0;font-size:1rem;padding:18px 4px 16px}.tab .n,.tab svg{display:none}}
+
+/* hero */
+.hero{position:relative;background:var(--ink);color:#fff;overflow:hidden;padding:0}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;min-height:min(86vh,780px)}
+.hero-copy{padding:clamp(56px,8vw,110px) 0 clamp(48px,6vw,80px);display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2}
+.hero h1{font-size:clamp(3rem,8.4vw,7.4rem);font-weight:900;font-stretch:72%;line-height:.88}
+.hero h1 em{font-style:normal;color:var(--hi)}
+.hero p.lede{max-width:540px;font-size:1.15rem;color:var(--fog);margin:28px 0 36px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px}
+.hero-photo{position:relative;margin-right:calc((100vw - min(1240px,100vw - 32px))/-2)}
+.hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.9)}
+.hero-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--ink) 0%,rgba(13,17,23,.2) 40%,rgba(13,17,23,0) 100%)}
+.hero-tag{position:absolute;right:24px;bottom:24px;z-index:2;font:500 .72rem/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;background:rgba(13,17,23,.8);padding:10px 14px;border-left:3px solid var(--hi);color:var(--fog)}
+.badge100{display:inline-flex;align-items:center;gap:14px;margin-bottom:28px;font:500 .78rem/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--steel)}
+.badge100 b{font:900 2.4rem/1 var(--display);font-stretch:70%;color:var(--hi);letter-spacing:0}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero-photo{height:340px;margin:0 -16px}.hero-photo::after{background:linear-gradient(0deg,var(--ink),rgba(13,17,23,0) 60%)}}
+
+/* stat strip */
+.stats{background:var(--ink-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:0}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:32px 24px;border-left:1px solid var(--line)}
+.stat:first-child{border-left:0;padding-left:0}
+.stat b{display:block;font:900 clamp(2.2rem,4vw,3.2rem)/1 var(--display);font-stretch:72%;color:#fff}
+.stat span{font-size:.9rem;color:var(--steel)}
+@media(max-width:760px){.stats .wrap{grid-template-columns:1fr 1fr}.stat{padding:24px 16px}.stat:nth-child(3){border-left:0;padding-left:0}.stat:nth-child(n+3){border-top:1px solid var(--line)}}
+
+/* services */
+.svc-head{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:end;margin-bottom:48px}
+.svc-head p{color:var(--muted);font-size:1.08rem;margin:0}
+.tabs{display:flex;gap:0;border-bottom:2px solid var(--text);overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
+.tab{flex:1;min-width:150px;background:none;border:0;padding:20px 8px 18px;font:800 clamp(1.1rem,2.4vw,1.7rem)/1 var(--display);font-stretch:78%;text-transform:uppercase;color:var(--muted);cursor:pointer;text-align:left;display:flex;align-items:center;gap:12px;position:relative}
+.tab svg{width:28px;height:28px;flex:none}
+.tab[aria-selected=true]{color:var(--text)}
+.tab[aria-selected=true]::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:6px;background:var(--hi)}
+.tab .n{font:500 .72rem var(--mono);color:var(--muted);margin-left:auto;padding-right:12px}
+.panel{display:none;grid-template-columns:.9fr 1.1fr;gap:56px;padding-top:44px}
+.panel.on{display:grid}
+.panel-intro p{color:var(--muted);margin:16px 0 24px}
+.panel-intro img{width:100%;aspect-ratio:4/3;object-fit:cover;margin-bottom:24px}
+.svc-list{list-style:none;margin:0;padding:0;border-top:1px solid #cfcac0}
+.svc-list li{border-bottom:1px solid #cfcac0}
+.svc-list details summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:44px 1fr 24px;align-items:center;padding:18px 0;font:700 1.12rem/1.2 var(--display);font-stretch:88%;text-transform:uppercase;letter-spacing:.01em}
+.svc-list summary::-webkit-details-marker{display:none}
+.svc-list summary .i{font:500 .74rem var(--mono);color:var(--muted)}
+.svc-list summary .pm{width:20px;height:20px;position:relative}
+.svc-list summary .pm::before,.svc-list summary .pm::after{content:"";position:absolute;left:3px;right:3px;top:9px;height:2px;background:var(--text);transition:transform .2s}
+.svc-list summary .pm::after{transform:rotate(90deg)}
+.svc-list details[open] .pm::after{transform:rotate(0)}
+.svc-list details[open] summary{color:#000}
+.svc-list details p{margin:0 0 20px 44px;color:var(--muted);max-width:56ch}
+.svc-list summary:hover{color:#000}
+@media(max-width:900px){.svc-head,.panel{grid-template-columns:1fr;gap:28px}}
+
+/* difference */
+.diff{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--line);margin-top:56px;border:2px solid var(--line)}
+.diff div{background:var(--ink);padding:36px 30px}
+.diff svg{width:34px;height:34px;color:var(--hi);margin-bottom:22px}
+.diff h3{margin-bottom:12px}
+.diff p{margin:0;color:var(--steel)}
+.callout{display:grid;grid-template-columns:1.3fr .7fr;gap:48px;align-items:center}
+.callout blockquote{margin:0;font:800 clamp(1.8rem,3.6vw,3rem)/1.05 var(--display);font-stretch:75%;text-transform:uppercase;color:#fff}
+.callout blockquote span{color:var(--hi)}
+.callout p{color:var(--steel);margin:0}
+@media(max-width:900px){.diff,.callout{grid-template-columns:1fr}}
+
+/* industries */
+.ind-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:48px}
+.ind{position:relative;aspect-ratio:3/4;overflow:hidden;background:var(--ink);color:#fff}
+.ind img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s,opacity .3s;opacity:.85}
+.ind::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(13,17,23,.95) 8%,rgba(13,17,23,0) 60%)}
+.ind div{position:absolute;left:16px;right:16px;bottom:16px;z-index:2}
+.ind h3{font-size:1.2rem}
+.ind p{margin:8px 0 0;font-size:.84rem;line-height:1.45;color:var(--fog);max-height:0;overflow:hidden;transition:max-height .35s}
+.ind:hover img{transform:scale(1.06);opacity:.6}
+.ind:hover p,.ind:focus-within p{max-height:120px}
+@media(max-width:1020px){.ind-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:620px){.ind-grid{grid-template-columns:1fr 1fr}.ind p{max-height:none;font-size:.78rem}}
+
+/* projects */
+.proj-head{display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap;margin-bottom:44px}
+.proj-head p{max-width:440px;color:var(--steel);margin:0}
+.proj{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:220px;gap:12px}
+.proj figure{margin:0;position:relative;overflow:hidden;background:var(--ink-3)}
+.proj figure img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.proj figure:hover img{transform:scale(1.04)}
+.proj figcaption{position:absolute;left:0;right:0;bottom:0;padding:56px 16px 14px;background:linear-gradient(0deg,rgba(13,17,23,.96) 30%,rgba(13,17,23,0));color:#fff}
+.proj figcaption b{display:block;font:800 1.05rem/1.1 var(--display);font-stretch:82%;text-transform:uppercase}
+.proj figcaption span{font:500 .7rem/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--hi)}
+.p1{grid-column:span 2;grid-row:span 2}.p2{grid-column:span 2;grid-row:span 2}.p3{grid-column:span 2}.p4{grid-column:span 2}.p5{grid-column:span 2}.p6{grid-column:span 2}.p7{grid-column:span 2}
+@media(max-width:900px){.proj{grid-template-columns:1fr 1fr;grid-auto-rows:200px}.proj figure{grid-column:span 1!important;grid-row:span 1!important}.proj .p1{grid-column:span 2!important;grid-row:span 2!important}}
+
+/* history */
+.hist{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px}
+.hist-lede p{color:var(--muted);font-size:1.06rem}
+.tl{list-style:none;margin:0;padding:0;border-left:2px solid var(--text)}
+.tl li{position:relative;padding:0 0 36px 32px}
+.tl li::before{content:"";position:absolute;left:-8px;top:6px;width:14px;height:14px;background:var(--hi);border:2px solid var(--text)}
+.tl b{font:900 2rem/1 var(--display);font-stretch:72%;display:block;margin-bottom:6px}
+.tl h3{font-size:1.1rem;margin-bottom:6px}
+.tl p{margin:0;color:var(--muted)}
+.owners{display:flex;gap:16px;align-items:center;margin-top:32px;padding:20px;background:var(--paper-2);border-left:4px solid var(--hi)}
+.owners p{margin:0;font-size:.95rem}
+@media(max-width:900px){.hist{grid-template-columns:1fr;gap:40px}}
+
+/* testimonials */
+.quotes{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:48px}
+.q{background:#fff;padding:36px;border-top:4px solid var(--text);display:flex;flex-direction:column}
+.q.big{grid-column:span 2;background:var(--ink);color:var(--fog);border-top-color:var(--hi)}
+.q p{margin:0 0 24px;font-size:1.05rem;flex:1}
+.q.big p{font:700 clamp(1.3rem,2.4vw,1.85rem)/1.25 var(--display);font-stretch:85%;color:#fff}
+.q cite{font-style:normal;font:500 .78rem/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.q.big cite{color:var(--steel)}
+.q cite b{display:block;color:var(--text);font-family:var(--display);font-stretch:85%;font-size:1rem;letter-spacing:.02em}
+.q.big cite b{color:var(--hi)}
+.mark{font:900 4rem/0.6 var(--display);color:var(--hi);margin-bottom:18px}
+@media(max-width:760px){.quotes{grid-template-columns:1fr}.q.big{grid-column:auto}}
+
+/* affiliations */
+.aff{padding:56px 0;background:var(--paper-2)}
+.aff .wrap{display:grid;grid-template-columns:220px 1fr;gap:40px;align-items:center}
+.aff ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.aff li{font:700 .9rem/1 var(--display);font-stretch:85%;letter-spacing:.06em;padding:12px 14px;border:1px solid #c9c4b9;background:var(--paper)}
+.aff li small{font:500 .68rem var(--mono);color:var(--muted);margin-left:6px;letter-spacing:.04em}
+@media(max-width:760px){.aff .wrap{grid-template-columns:1fr;gap:20px}}
+
+/* areas + contact */
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+.areas{columns:3;column-gap:20px;list-style:none;padding:0;margin:28px 0 0;font-size:.92rem;color:var(--steel)}
+.areas li{padding:5px 0;break-inside:avoid;border-bottom:1px solid var(--line)}
+.big-phone{display:block;font:900 clamp(2.6rem,6vw,4.6rem)/1 var(--display);font-stretch:70%;color:var(--hi);text-decoration:none;margin:20px 0 6px}
+.form{background:var(--paper);color:var(--text);padding:clamp(24px,4vw,44px)}
+.form h3{font-size:1.8rem;margin-bottom:8px;color:var(--text)}
+.form .note{font-size:.88rem;color:var(--muted);margin:0 0 24px}
+.form .note b{color:var(--red)}
+.seg{display:grid;grid-template-columns:1fr 1fr;border:2px solid var(--text);margin-bottom:18px}
+.seg input{position:absolute;opacity:0}
+.seg label{text-align:center;padding:12px;font:700 .85rem/1 var(--display);font-stretch:85%;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.seg input:checked+label{background:var(--text);color:var(--hi)}
+.seg input:focus-visible+label{outline:3px solid var(--hi)}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fields .full{grid-column:span 2}
+.fields label{display:block;font:600 .74rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.fields input,.fields textarea,.fields select{width:100%;font:inherit;padding:12px 14px;border:1px solid #bdb7ab;background:#fff;color:var(--text);border-radius:0}
+.fields input:focus,.fields textarea:focus,.fields select:focus{outline:2px solid var(--text);outline-offset:-1px}
+.fields textarea{min-height:110px;resize:vertical}
+.form .btn{width:100%;justify-content:center;margin-top:18px}
+.sent{display:none;padding:18px;background:var(--ink);color:#fff;margin-top:16px;font-size:.95rem}
+@media(max-width:900px){.contact{grid-template-columns:1fr}.areas{columns:2}}
+@media(max-width:520px){.fields{grid-template-columns:1fr}.fields .full{grid-column:auto}}
+
+footer{background:#080b0f;color:var(--steel);padding:56px 0 28px;font-size:.9rem}
+.foot{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:40px}
+.foot h4{font:700 .8rem/1 var(--display);font-stretch:90%;letter-spacing:.12em;text-transform:uppercase;color:#fff;margin:0 0 16px}
+.foot ul{list-style:none;margin:0;padding:0}
+.foot li{padding:4px 0}
+.foot a{text-decoration:none}
+.foot a:hover{color:var(--hi)}
+.legal{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:.8rem}
+@media(max-width:900px){.foot{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.foot{grid-template-columns:1fr}}
+
+.callbar{display:none}
+@media(max-width:620px){.callbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;box-shadow:0 -6px 20px rgba(0,0,0,.3)}.callbar a{padding:16px;text-align:center;font:800 .9rem/1 var(--display);font-stretch:85%;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}.callbar a:first-child{background:var(--hi);color:var(--hi-ink)}.callbar a:last-child{background:var(--ink);color:#fff}body{padding-bottom:52px}}
+
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<div class="alert"><span class="dot"></span>Equipment down? A real person answers 24/7/365. No voicemail, ever. <a href="tel:2484712230">Call 248-471-2230</a></div>
+
+<header>
+  <nav class="wrap nav" aria-label="Main">
+    <a class="brand" href="#top"><img src="img/logo-reverse-b-1.webp" alt="DMI logo"><span>Danboise Mechanical<small>Est. 1925 · Farmington, MI</small></span></a>
+    <ul class="links" id="links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#history">Our Story</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="phone" href="tel:2484712230"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>248-471-2230</a>
+      <a class="btn btn-hi" href="#contact">Request Service</a>
+      <button class="menu-btn" aria-label="Menu" aria-expanded="false" onclick="const l=document.getElementById('links');this.setAttribute('aria-expanded',l.classList.toggle('open'))"><svg width="20" height="20" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="badge100"><b>100</b>Years of commercial<br>excellence · 1925–2025</div>
+      <h1>Michigan's buildings <em>run</em> on Danboise.</h1>
+      <p class="lede">Commercial HVAC, plumbing and electrical, from one contractor. We design, install and service the systems that keep hospitals, data centers, plants and offices running.</p>
+      <div class="hero-actions">
+        <a class="btn btn-hi" href="#contact">Request Service or Estimate <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-line" href="tel:2484712230">24/7 Emergency Line</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="img/att-lansing-chiller-1.jpg" alt="Crane lifting a new chiller onto a downtown Lansing building at dusk">
+      <div class="hero-tag">AT&amp;T Lansing · Chiller replacement</div>
+    </div>
+  </div>
+</section>
+
+<div class="stats dark">
+  <div class="wrap">
+    <div class="stat"><b>1925</b><span>Family-founded, now in the 4th generation</span></div>
+    <div class="stat"><b>75+</b><span>Trades professionals on staff</span></div>
+    <div class="stat"><b>30 yrs</b><span>Average management tenure at DMI</span></div>
+    <div class="stat"><b>24/7</b><span>Live dispatch. A real person every call.</span></div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="svc-head reveal">
+      <div><div class="eyebrow">What we do</div><h2>One source for every building system.</h2></div>
+      <p>Mechanical, plumbing and electrical trades under one roof means one schedule, one point of contact and nobody pointing fingers. We handle design-build, retrofits, maintenance programs and emergency repair.</p>
+    </div>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" aria-selected="true" data-p="hvac"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M4.9 4.9l14.2 14.2M2 12h20M4.9 19.1 19.1 4.9"/><circle cx="12" cy="12" r="3"/></svg>HVAC<span class="n">05</span></button>
+      <button class="tab" role="tab" aria-selected="false" data-p="plumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h6v6h8v4h-6v6H6v-6H4z"/></svg>Plumbing<span class="n">12</span></button>
+      <button class="tab" role="tab" aria-selected="false" data-p="elec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>Electrical<span class="n">06</span></button>
+    </div>
+
+    <div class="panel on" id="hvac" role="tabpanel">
+      <div class="panel-intro">
+        <img src="img/att-roseville-boiler-replacement-1.jpg" alt="Boiler replacement at an AT&amp;T facility in Roseville" loading="lazy">
+        <h3>Commercial heating, ventilation &amp; air conditioning</h3>
+        <p>From concept to commissioning: boilers, chillers, RTUs, AHUs, cooling towers, VRF and computer-room systems, plus the piping and controls that tie them together. We service every make and model, and we keep 2- and 5-ton temporary cooling units ready while repairs are underway.</p>
+        <a class="btn btn-line" href="#contact">Schedule HVAC service</a>
+      </div>
+      <ul class="svc-list" data-list="hvac"></ul>
+    </div>
+    <div class="panel" id="plumb" role="tabpanel">
+      <div class="panel-intro">
+        <img src="img/haigh-1.jpg" alt="Commercial piping installation by Danboise Mechanical" loading="lazy">
+        <h3>Commercial &amp; industrial plumbing</h3>
+        <p>Union plumbers and pipefitters for domestic water, sanitary, storm and process piping. We handle everything from backflow certification to cutting slab for new in-floor drains, in occupied buildings, on your schedule.</p>
+        <a class="btn btn-line" href="#contact">Schedule plumbing service</a>
+      </div>
+      <ul class="svc-list" data-list="plumb"></ul>
+    </div>
+    <div class="panel" id="elec" role="tabpanel">
+      <div class="panel-intro">
+        <img src="img/belleville-generator-1.jpg" alt="Standby generator installed in Belleville" loading="lazy">
+        <h3>Commercial electrical</h3>
+        <p>Licensed electricians for power distribution, switchgear, panels, generators, lighting and equipment hookups. All work is NEC- and NFPA-compliant and coordinated with our HVAC and plumbing crews, so your project needs one contractor instead of three.</p>
+        <a class="btn btn-line" href="#contact">Schedule electrical service</a>
+      </div>
+      <ul class="svc-list" data-list="elec"></ul>
+    </div>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="wrap">
+    <div class="callout reveal">
+      <blockquote>Others compete on price. <span>We've spent 100 years</span> competing on what lasts.</blockquote>
+      <p>The cheapest bid is rarely the cheapest system. Studies show nearly 80% of commercial A/C systems are installed incorrectly. We get it right the first time, so your equipment lasts longer and your building costs less to run.</p>
+    </div>
+    <div class="diff reveal">
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><h3>Never a voicemail</h3><p>At 2 a.m. on a holiday, a member of our team answers. No answering service, no callback queue. A digital dispatch system and a fully stocked fleet get technicians rolling fast.</p></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 6v6c0 5 4 9 9 10 5-1 9-5 9-10V6z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><h3>Safety-first union crews</h3><p>Our team is trained through Pipefitters Local 636, Plumbers Local 98 and Sheet Metal Workers Local 80, with ongoing safety and skills training on top.</p></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/></svg><h3>Built to extend equipment life</h3><p>Our preventive maintenance programs catch failures before they happen, improve efficiency and indoor air quality, and add years to your capital equipment.</p></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18"/><path d="M3 9h18M9 21V9"/></svg><h3>In-house sheet metal</h3><p>We fabricate custom ductwork and components in our own shop, so we control quality and lead times instead of waiting on a supplier.</p></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5M4 19h16M8 15l4-4 3 3 5-6"/></svg><h3>Estimates without surprises</h3><p>Our estimators average 30+ years of experience. We use CAD and modern estimating tools, flag value-engineering options early, and manage procurement and logistics for you.</p></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg><h3>WBENC-certified woman-owned</h3><p>We're certified by WBENC and the Supplier Clearinghouse, which helps you meet supplier-diversity goals with a contractor that has a century of results.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="industries">
+  <div class="wrap">
+    <div class="reveal"><div class="eyebrow">Industries we serve</div><h2>Built for buildings that can't go down.</h2></div>
+    <div class="ind-grid reveal">
+      <div class="ind" tabindex="0"><img src="img/office-building.webp" alt="" loading="lazy"><div><h3>Commercial Offices</h3><p>Climate control and reliable systems that keep tenants comfortable and productive.</p></div></div>
+      <div class="ind" tabindex="0"><img src="img/industrial-category.webp" alt="" loading="lazy"><div><h3>Industrial</h3><p>Heavy-duty systems built for continuous operation and strict safety standards.</p></div></div>
+      <div class="ind" tabindex="0"><img src="img/data-center.webp" alt="" loading="lazy"><div><h3>Data Centers</h3><p>Precision cooling and fail-safe power that protect uptime and critical infrastructure.</p></div></div>
+      <div class="ind" tabindex="0"><img src="img/hospital-building.webp" alt="" loading="lazy"><div><h3>Health Care</h3><p>Specialized systems for infection control, air quality and sensitive equipment.</p></div></div>
+      <div class="ind" tabindex="0"><img src="img/classroom.webp" alt="" loading="lazy"><div><h3>Educational</h3><p>Energy-efficient systems for comfortable learning environments.</p></div></div>
+      <div class="ind" tabindex="0"><img src="img/federal-building.webp" alt="" loading="lazy"><div><h3>Federal</h3><p>Work that meets government regulations and sustainability goals.</p></div></div>
+      <div class="ind" tabindex="0"><img src="img/parking-garage.webp" alt="" loading="lazy"><div><h3>Institutional</h3><p>Durable, scalable systems that support varied demands.</p></div></div>
+      <div class="ind" tabindex="0"><img src="img/retail-building.webp" alt="" loading="lazy"><div><h3>Retail</h3><p>Systems that balance customer comfort with energy efficiency.</p></div></div>
+      <div class="ind" tabindex="0"><img src="img/fire-station.webp" alt="" loading="lazy"><div><h3>Municipal</h3><p>Reliable infrastructure for high-use public buildings.</p></div></div>
+      <div class="ind" tabindex="0"><img src="img/movie-theater.webp" alt="" loading="lazy"><div><h3>Resort &amp; Entertainment</h3><p>Customized systems for seamless guest experiences.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="dark">
+  <div class="wrap">
+    <div class="proj-head reveal">
+      <div><div class="eyebrow">Recent projects</div><h2>Work you can see.</h2></div>
+      <p>Chillers lifted onto downtown rooftops, data-center cooling, boiler plants and standby power for Michigan's largest telecom networks and facilities.</p>
+    </div>
+    <div class="proj reveal">
+      <figure class="p1"><img src="img/att-lansing-data-center-1.jpg" alt="" loading="lazy"><figcaption><span>Data center · Lansing</span><b>AT&amp;T Lansing Data Center</b></figcaption></figure>
+      <figure class="p2"><img src="img/att-plymouth-chiller-2.jpg" alt="" loading="lazy"><figcaption><span>Chiller · Plymouth</span><b>AT&amp;T Plymouth Chiller</b></figcaption></figure>
+      <figure class="p3"><img src="img/verizon-royal-oak-1.jpg" alt="" loading="lazy"><figcaption><span>HVAC · Royal Oak</span><b>Verizon Royal Oak</b></figcaption></figure>
+      <figure class="p4"><img src="img/belleville-generator-1.jpg" alt="" loading="lazy"><figcaption><span>Standby power</span><b>Belleville Generator</b></figcaption></figure>
+      <figure class="p5"><img src="img/att-various-projects-1.jpg" alt="" loading="lazy"><figcaption><span>Multi-site</span><b>AT&amp;T Various Sites</b></figcaption></figure>
+      <figure class="p6"><img src="img/verizon-westland-1.jpg" alt="" loading="lazy"><figcaption><span>Mechanical · Westland</span><b>Verizon Westland</b></figcaption></figure>
+      <figure class="p7"><img src="img/att-roseville-boiler-replacement-1.jpg" alt="" loading="lazy"><figcaption><span>Boiler · Roseville</span><b>AT&amp;T Roseville Boiler</b></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="history">
+  <div class="wrap hist">
+    <div class="hist-lede reveal">
+      <div class="eyebrow">Our story</div>
+      <h2>Four generations. One standard.</h2>
+      <p>It started with a neighborhood plumbing and hardware store and a simple rule from founder Alex Joseph Danboise: deliver the best products and service, without compromise. A hundred years later, that rule still decides how we bid, build and answer the phone.</p>
+      <div class="owners"><p><b>Woman-owned and family-led.</b> DMI is run by Alex's granddaughter Carol Danboise Gatewood and great-granddaughter Amy Gatewood Gendjar.</p></div>
+    </div>
+    <ol class="tl reveal">
+      <li><b>1925</b><h3>A.J. Danboise &amp; Son opens</h3><p>Alex Joseph Danboise opens a neighborhood plumbing and hardware store built on quality and customer service.</p></li>
+      <li><b>Decades</b><h3>The name becomes a promise</h3><p>Through three generations, "Danboise" becomes synonymous with trust and craftsmanship across Metro Detroit.</p></li>
+      <li><b>2004</b><h3>Danboise Mechanical Inc. is formed</h3><p>The commercial division branches off to focus on industrial and commercial plumbing, HVAC and electrical work.</p></li>
+      <li><b>2025</b><h3>100 years, 75+ professionals</h3><p>A fourth-generation, WBENC-certified company with a technologically advanced facility, a modern fleet and live dispatch around the clock.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="reveal"><div class="eyebrow">What clients say</div><h2>Decades-long relationships.</h2></div>
+    <div class="quotes reveal">
+      <div class="q big"><div class="mark">“</div><p>DMI has been a solid partner, executing hundreds of high-quality projects while striving to exceed client expectations.</p><cite><b>Bernard Fountain</b>Corp. Real Estate, AT&amp;T (ret.) · 25+ years with DMI</cite></div>
+      <div class="q"><p>Danboise Mechanical is the mechanical contractor that sets the standards by which all other mechanical contractors are, or should be, judged. I have been a satisfied Danboise customer for over 40 years.</p><cite><b>Jim Gandol</b>Gandol Inc.</cite></div>
+      <div class="q"><p>Whether we need HVAC, plumbing, scheduled maintenance, or after-hours emergency service, we make Danboise Mechanical our first call. Their technicians are professional, courteous, and very knowledgeable.</p><cite><b>Robert Viazanko</b>Viazanko Construction Services L.L.C.</cite></div>
+    </div>
+  </div>
+</section>
+
+<div class="aff">
+  <div class="wrap">
+    <div><div class="eyebrow" style="margin:0">Affiliations &amp; certifications</div></div>
+    <ul>
+      <li>WBENC<small>Woman-owned</small></li><li>ASHRAE</li><li>MCAA</li><li>SMACNA</li><li>BOMA</li><li>NAWBO</li>
+      <li>Pipefitters<small>Local 636</small></li><li>Plumbers<small>Local 98</small></li><li>Sheet Metal Workers<small>Local 80</small></li>
+    </ul>
+  </div>
+</div>
+
+<section id="contact" class="dark">
+  <div class="wrap contact">
+    <div class="reveal">
+      <div class="eyebrow">Get in touch</div>
+      <h2>Equipment down? Call now.</h2>
+      <a class="big-phone" href="tel:2484712230">248-471-2230</a>
+      <p>Answered live, 24 hours a day, 365 days a year.<br>31625 Grand River Ave., Farmington, MI 48336</p>
+      <h3 style="margin-top:44px;font-size:1.1rem">Serving all of Michigan</h3>
+      <ul class="areas">
+        <li>Ann Arbor</li><li>Battle Creek</li><li>Birmingham</li><li>Dearborn</li><li>Detroit</li><li>Farmington</li><li>Farmington Hills</li><li>Flint</li><li>Grand Rapids</li><li>Ingham County</li><li>Kalamazoo</li><li>Lansing</li><li>Livonia</li><li>Mount Pleasant</li><li>Muskegon</li><li>Novi</li><li>Rochester Hills</li><li>Royal Oak</li><li>Saginaw</li><li>Southfield</li><li>Traverse City</li><li>Troy</li><li>Warren</li><li>Wayne County</li><li>Ypsilanti</li>
+      </ul>
+    </div>
+    <form class="form reveal" onsubmit="event.preventDefault();this.querySelector('.sent').style.display='block'">
+      <h3>Request service or an estimate</h3>
+      <p class="note">After 5:00 p.m. with an urgent issue? <b>Call 248-471-2230</b> instead. We answer immediately.</p>
+      <div class="seg"><input type="radio" name="type" id="t1" checked><label for="t1">Service</label><input type="radio" name="type" id="t2"><label for="t2">Estimate</label></div>
+      <div class="fields">
+        <div><label for="f1">Name *</label><input id="f1" required autocomplete="name"></div>
+        <div><label for="f2">Company</label><input id="f2" autocomplete="organization"></div>
+        <div><label for="f3">Email *</label><input id="f3" type="email" required autocomplete="email"></div>
+        <div><label for="f4">Phone *</label><input id="f4" type="tel" required autocomplete="tel"></div>
+        <div class="full"><label for="f5">Trade</label><select id="f5"><option>HVAC</option><option>Plumbing</option><option>Electrical</option><option>Multiple / not sure</option></select></div>
+        <div class="full"><label for="f6">Describe what you need *</label><textarea id="f6" required maxlength="2000"></textarea></div>
+      </div>
+      <button class="btn btn-hi" type="submit">Send request</button>
+      <div class="sent">Mockup only. In the live build, this form sends the request to dispatch.</div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><a class="brand" href="#top"><img src="img/logo-reverse-b-1.webp" alt="DMI logo"><span>Danboise Mechanical</span></a><p style="margin-top:18px;max-width:300px">Commercial HVAC, plumbing and electrical contractor. Serving Michigan since 1925.</p></div>
+    <div><h4>HVAC</h4><ul><li><a href="#services">Air Conditioning</a></li><li><a href="#services">Heating</a></li><li><a href="#services">Boiler Services</a></li><li><a href="#services">Sheet Metal Fabrication</a></li></ul></div>
+    <div><h4>Plumbing &amp; Electrical</h4><ul><li><a href="#services">Backflow Testing</a></li><li><a href="#services">Sewer &amp; Drain Cleaning</a></li><li><a href="#services">Generators</a></li><li><a href="#services">Electrical Panels</a></li></ul></div>
+    <div><h4>Company</h4><ul><li><a href="#history">History</a></li><li><a href="#projects">Recent Projects</a></li><li><a href="#contact">Sales &amp; Estimating</a></li><li><a href="tel:2484712230">248-471-2230</a></li></ul></div>
+  </div>
+  <div class="wrap legal"><span>© 2026 Danboise Mechanical Inc. · 31625 Grand River Ave., Farmington, MI 48336</span><span>Design mockup by Alteva Digital</span></div>
+</footer>
+
+<div class="callbar"><a href="tel:2484712230">Call 24/7</a><a href="#contact">Request Service</a></div>
+
+<script>
+const S={
+hvac:[
+["Air Conditioning","Design, load analysis and installation of RTUs, air handlers, split and VRF/VRV systems, chillers and cooling towers. Repairs on every make and model, with temporary 2- and 5-ton cooling units available."],
+["Heating","Installation, repair and maintenance of commercial heating plants, from furnaces and unit heaters to hydronic systems and controls."],
+["Boiler Services","Boiler installation, replacement, retubing and seasonal service for commercial and industrial facilities."],
+["Sheet Metal Fabrication","In-house fabrication of custom ductwork and components, built to spec and delivered on our own schedule."],
+["Piping, Controls & Automation","Heating and cooling water, steam, condensate, refrigerant, natural gas and compressed air piping, plus building automation integration."]],
+plumb:[
+["Backflow Installation & Testing","Installation, annual testing and certification that protect your building and the public water supply."],
+["Domestic Water Piping","Install and replace water distribution systems for commercial and industrial facilities."],
+["Drain Installation & Replacement","Floor, trench and roof drains for every type of facility."],
+["Floor Cutting for In-Floor Piping","Saw-cutting and trenching slab for new in-floor piping, remodels and equipment relocations."],
+["Pipe Fitting & Thermal Installation","Commercial pipe fitting and insulation for process, heating and cooling systems."],
+["Plumbing Fixtures","Installation and replacement of commercial fixtures, from restrooms to break rooms."],
+["Sanitary Vent Piping","Code-compliant venting that keeps drainage safe and efficient."],
+["Sanitary Waste Piping","Waste piping installed or replaced for new construction and renovation."],
+["Sewer & Drain Cleaning","Cleaning and clearing for commercial and industrial sewer and drain lines."],
+["Storm Water Piping","Drainage infrastructure for commercial and industrial sites."],
+["Water Heaters","High-capacity hot water systems: sizing, installation and replacement."],
+["Emergency Plumbing","Leaks, backups and failures answered live, 24/7/365."]],
+elec:[
+["Electrical Panels & Switchgear","VFD and VFC panels, low- and high-voltage switchgear, and motor starters, engineered for your system."],
+["Backup Generators","Standby systems from 25kW to 2.8MW in natural gas, propane or diesel, with transfer switches, monitoring and maintenance plans."],
+["Equipment Connections","Single- and three-phase hookups for RTUs, AHUs, chillers, pumps and production machinery."],
+["Lighting Retrofits","LED conversions, high-bay upgrades, sensors and controls. We'll also help you find Michigan utility rebates."],
+["Wiring & Cabling","Power distribution, Cat6/6A and fiber data cabling, and low-voltage wiring for fire, access control and security."],
+["Service Upgrades & Troubleshooting","Capacity upgrades, load balancing and fast diagnosis when power problems hit."]]};
+for(const k in S){document.querySelector(`[data-list=${k}]`).innerHTML=S[k].map((s,i)=>`<li><details${i==0?' open':''}><summary><span class="i">${String(i+1).padStart(2,'0')}</span>${s[0]}<span class="pm"></span></summary><p>${s[1]}</p></details></li>`).join('')}
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===t));document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('on',p.id===t.dataset.p))});
+document.querySelectorAll('.links a').forEach(a=>a.onclick=()=>document.getElementById('links').classList.remove('open'));
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
